@@ -11,4 +11,4 @@
 - [ ] New or changed behavior has a test in `tests/`.
 - [ ] `terraform-docs .` was run, and the README describes the change.
 - [ ] `CHANGELOG.md` has an entry under "Unreleased".
-- [ ] New `.tf` files start with the two-line header: `# Copyright 2025 Automate the Cloud Inc.` and `# SPDX-License-Identifier: Apache-2.0`.
+- [ ] New `.tf` files start with the two-line header: `# Copyright 2026 Automate the Cloud Inc.` and `# SPDX-License-Identifier: Apache-2.0`.
