@@ -1,0 +1,9 @@
+# Trivy findings that are deliberate. Each entry says why.
+misconfigurations:
+  - id: AWS-0178
+    paths:
+      - tests/fixtures/same_run/main.tf
+    statement: >-
+      The test fixture creates a VPC only so that its ID, and its subnets' IDs,
+      are unknown when the module plans. It runs against a mocked provider
+      and is never applied. The module itself creates no VPC.
